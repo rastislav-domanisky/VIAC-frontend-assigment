@@ -2,4 +2,20 @@
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
+
+    .SectionMain {
+        box-sizing: border-box;
+        width: 100%;
+        height: 900px;
+        -webkit-clip-path: ellipse(87% 53% at 50% 37%);
+        clip-path: ellipse(87% 53% at 50% 37%);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .bgColor {
+            width: 100%;
+            height: 100%;
+            background: rgba($color: #f9e8eb, $alpha: 0.8);
+        }
+    }
 }
