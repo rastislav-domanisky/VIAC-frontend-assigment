@@ -1,6 +1,7 @@
 import React from 'react';
 import "./HomeScreen.scss";
 
+import Header from '../../components/Header/Header';
 import bg1 from "../../assets/gallery/galeria-4.jpg";
 
 const HomeScreen = () => {
@@ -10,7 +11,7 @@ const HomeScreen = () => {
                 backgroundImage: "url('" + bg1 + "')",
             }} >
             <div className="bgColor">
-
+                <Header />
             </div>
             </div>
         </div>
