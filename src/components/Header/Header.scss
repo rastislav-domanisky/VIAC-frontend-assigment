@@ -1,0 +1,33 @@
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    background: rgba($color: #FFF, $alpha: 0.5);
+    padding: 0 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    nav {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 700px;
+        height: 100%;
+
+        a {
+            text-decoration: none;
+            color: #476667;
+            font-size: 22px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        a:active, a:hover {
+            color: #c28283;
+        }
+    }
+}
