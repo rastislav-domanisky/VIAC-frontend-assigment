@@ -117,4 +117,106 @@
             }
         }
     }
+
+    .aboutUsSection {
+        width: 100%;
+        //background: red;
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        align-items: center;
+
+        //.aboutFoto {}
+
+        .aboutArea {
+            box-sizing: border-box;
+            padding-left: 20%;
+            padding-right: 10%;
+
+            .aboutLabel {
+                font-size: 18px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                color: #c28283;
+                padding: 0;
+                margin: 0;
+                text-transform: uppercase;
+            }
+
+            .aboutTitle {
+                font-size: 60px;
+                letter-spacing: 0px;
+                font-weight: 400;
+                color: #c28283;
+                padding: 0;
+                margin: 0;
+            }
+
+            .aboutText {
+                font-size: 16px;
+                letter-spacing: 1px;
+                font-weight: 400;
+                color: #476667;
+                padding: 0;
+                margin: 0
+            }
+
+            .aboutCategories {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                .aboutCategory {
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                    font-weight: 400;
+                    color: #c28283;
+                    padding: 0;
+                    margin: 0
+                }
+            }
+        }
+    }
+
+    .gallerySection {
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 250px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+
+        .gLabel {
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-weight: 500;
+            color: #476667;
+            padding: 0;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .gTitleArea {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            margin-right: 250px;
+
+            .gTitle {
+                color: #476667;
+                font-size: 60px;
+                letter-spacing: 0px;
+                font-weight: 400;
+                padding: 0;
+                margin: 0;
+            }
+
+            .gArrowIcon {
+                stroke: #476667;
+                width: 100px;
+            }
+        }
+    }
 }

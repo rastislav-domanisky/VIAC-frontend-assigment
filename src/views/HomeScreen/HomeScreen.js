@@ -4,11 +4,18 @@ import { Link } from "react-router-dom";
 
 import Header from '../../components/Header/Header';
 import bg1 from "../../assets/gallery/galeria-4.jpg";
+import Gallery from '../../components/Gallery/Gallery';
 
 import foto1 from '../../assets/livis-1.jpg';
 import foto2 from '../../assets/livis-2.jpg';
 import foto3 from '../../assets/livis-3.jpg';
 import foto5 from '../../assets/livis-5.jpg';
+import arrowIcon from '../../assets/svg/arrow.svg';
+import galFoto1 from '../../assets/gallery/galeria-1.jpg';
+import galFoto2 from '../../assets/gallery/galeria-2.jpg';
+import galFoto3 from '../../assets/gallery/galeria-3.jpg';
+import galFoto4 from '../../assets/gallery/galeria-4.jpg';
+import galFoto5 from '../../assets/gallery/galeria-5.jpg';
 
 const HomeScreen = () => {
     return (
@@ -35,6 +42,45 @@ const HomeScreen = () => {
                             <img src={foto3} alt="foto" className="hFoto3" />
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="aboutUsSection">
+                <img src={foto5} alt="foto" className="aboutFoto" />
+                <div className="aboutArea">
+                    <p className="aboutLabel">Kto sme</p>
+                    <h2 className="aboutTitle">Lívia a Viktória</h2>
+                    <p className="aboutText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br /><br />Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                    enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.</p>
+                    <div className="aboutCategories">
+                        <div className="aboutCategory">
+                            Firemné<br />eventy
+                        </div>
+                        <div className="aboutCategory">
+                            Svadby
+                        </div>
+                        <div className="aboutCategory">
+                            Spoločenské<br />podujatia
+                        </div>
+                        <div className="aboutCategory">
+                            Plesy
+                        </div>
+                        <div className="aboutCategory">
+                            Gala<br />večere
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="gallerySection">
+                <p className="gLabel">Galéria</p>
+                <div className="gTitleArea">
+                    <h2 className="gTitle">Zážitkový catering</h2>
+                    <img src={arrowIcon} alt="arrow" className="gArrowIcon" />
+                </div>
+                <div className="gallery">
+                    <Gallery assets={[galFoto1, galFoto2, galFoto3, galFoto4, galFoto5]} />
                 </div>
             </div>
         </div>
