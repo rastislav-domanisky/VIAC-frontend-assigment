@@ -13,6 +13,7 @@ import foto2 from '../../assets/livis-2.jpg';
 import foto3 from '../../assets/livis-3.jpg';
 import foto5 from '../../assets/livis-5.jpg';
 import arrowIcon from '../../assets/svg/arrow.svg';
+import patternImg from '../../assets/svg/pattern.svg';
 import galFoto1 from '../../assets/gallery/galeria-1.jpg';
 import galFoto2 from '../../assets/gallery/galeria-2.jpg';
 import galFoto3 from '../../assets/gallery/galeria-3.jpg';
@@ -178,7 +179,9 @@ const HomeScreen = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="cImg"></div>
+                    <div className="cPattern">
+                        <img src={patternImg} alt="pattern" className="patternImg" />
+                    </div>
                 </div>
             </div>
             <Footer />

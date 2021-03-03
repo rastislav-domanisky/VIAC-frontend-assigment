@@ -397,6 +397,14 @@
                     }
                 }
             }
+
+            .cPattern {
+                width: 300px;
+                position: absolute;
+                z-index: 30;
+                margin-top: 100px;
+                left: 78%;
+            }
         }
     }
 }
