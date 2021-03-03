@@ -21,6 +21,7 @@ import galFoto4 from '../../assets/gallery/galeria-4.jpg';
 import galFoto5 from '../../assets/gallery/galeria-5.jpg';
 
 const HomeScreen = () => {
+    
     return (
         <div className="HomeScreen">
             <div className="SectionMain" style={{
@@ -36,7 +37,7 @@ const HomeScreen = () => {
                             aliquam erat volutpat.</p>
                             <div className="hLeftButtons">
                                 <div className="hLeftBtn1"><Link to="/">O nás</Link></div>
-                                <div className="hLeftBtn2"><Link to="/">Kontaktujte nás</Link></div>
+                                <div className="hLeftBtn2"><Link to="/#KONTAKT">Kontaktujte nás</Link></div>
                             </div>
                         </div>
                         <div className="hRight">
@@ -146,7 +147,7 @@ const HomeScreen = () => {
                     </p>
                 </div>
             </div>
-            <div className="contactSection">
+            <div className="contactSection" id="KONTAKT">
                 <div className="cTitleArea">
                     <div className="cTitleLeft">
                         <p className="cLabel">Kontakt</p>
