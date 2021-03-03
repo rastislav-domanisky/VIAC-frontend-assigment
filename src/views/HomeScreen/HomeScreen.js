@@ -1,6 +1,6 @@
 import React from 'react';
 import "./HomeScreen.scss";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 import Header from '../../components/Header/Header';
 import bg1 from "../../assets/gallery/galeria-4.jpg";
@@ -26,7 +26,7 @@ const HomeScreen = () => {
         <div className="HomeScreen">
             <div className="SectionMain" style={{
                 backgroundImage: "url('" + bg1 + "')",
-            }} >
+            }} id="UVOD" >
                 <div className="bgColor">
                     <Header />
                     <div className="headingArea">
@@ -36,7 +36,7 @@ const HomeScreen = () => {
                             diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                             aliquam erat volutpat.</p>
                             <div className="hLeftButtons">
-                                <div className="hLeftBtn1"><Link to="/">O nás</Link></div>
+                                <div className="hLeftBtn1"><Link to="/#O_NAS">O nás</Link></div>
                                 <div className="hLeftBtn2"><Link to="/#KONTAKT">Kontaktujte nás</Link></div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const HomeScreen = () => {
                     </div>
                 </div>
             </div>
-            <div className="aboutUsSection">
+            <div className="aboutUsSection" id="O_NAS">
                 <img src={foto5} alt="foto" className="aboutFoto" />
                 <div className="aboutArea">
                     <p className="aboutLabel">Kto sme</p>
@@ -77,7 +77,7 @@ const HomeScreen = () => {
                     </div>
                 </div>
             </div>
-            <div className="gallerySection">
+            <div className="gallerySection" id="GALERIA">
                 <p className="gLabel">Galéria</p>
                 <div className="gTitleArea">
                     <h2 className="gTitle">Zážitkový catering</h2>
@@ -87,7 +87,7 @@ const HomeScreen = () => {
                     <Gallery assets={[galFoto1, galFoto2, galFoto3, galFoto4, galFoto5]} />
                 </div>
             </div>
-            <div className="referencesSection">
+            <div className="referencesSection" id="REFERENCIE">
                 <div className="referencesBtnArea">
                     <div className="refTitleArea">
                         <p className="refsLabel">
