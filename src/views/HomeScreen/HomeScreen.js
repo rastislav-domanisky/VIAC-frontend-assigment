@@ -36,8 +36,8 @@ const HomeScreen = () => {
                             diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                             aliquam erat volutpat.</p>
                             <div className="hLeftButtons">
-                                <div className="hLeftBtn1"><Link to="/#O_NAS">O nás</Link></div>
-                                <div className="hLeftBtn2"><Link to="/#KONTAKT">Kontaktujte nás</Link></div>
+                                <Link to="/#O_NAS"><div className="hLeftBtn1">O nás</div></Link>
+                                <Link to="/#KONTAKT"><div className="hLeftBtn2">Kontaktujte nás</div></Link>
                             </div>
                         </div>
                         <div className="hRight">
