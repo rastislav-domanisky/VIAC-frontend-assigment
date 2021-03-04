@@ -8,15 +8,27 @@
     z-index: 50;
     align-items: center;
 
+    @media (max-width: 1300px) {
+      height: 300px;
+    }
+
     .GalleryIMG {
         height: 330px;
         box-sizing: border-box;
         margin: 0 10px;
         cursor: pointer;
+
+        @media (max-width: 1300px) {
+          height: 230px;
+        }
     }
 
     .GalleryIMG:hover, .GalleryIMG:active {
         height: 375px;
+
+        @media (max-width: 1300px) {
+          height: 250px;   
+        }
     }
 
     /* width */
@@ -26,16 +38,16 @@
   
   /* Track */
   &::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #476667;
   }
   
   /* Handle */
   &::-webkit-scrollbar-thumb {
-    background: rgba($color: #476667, $alpha: 0.7);
+    background: rgba($color: #FFF, $alpha: 0.6);
   }
   
   /* Handle on hover */
   &::-webkit-scrollbar-thumb:hover {
-    background: #476667;
+    background: #FFF;
   }
 }

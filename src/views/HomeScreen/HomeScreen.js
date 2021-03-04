@@ -176,7 +176,7 @@ const HomeScreen = () => {
                         <div className="cRow">
                             <div className="cInput">
                                 <label htmlFor="cMsg">Správa *</label>
-                                <textarea name="Text1" rows="5"></textarea>
+                                <textarea name="Text1" rows="3"></textarea>
                             </div>
                         </div>
                     </div>
