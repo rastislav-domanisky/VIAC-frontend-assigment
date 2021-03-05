@@ -1,7 +1,7 @@
 # VIAC - Front-end assigment
 
 ## Used Technologies
-* React 
+* React (Router, Redux)
 * Sass
 
 <br />
