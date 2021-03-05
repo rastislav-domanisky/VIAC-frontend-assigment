@@ -7,7 +7,7 @@ import Logo from '../Logo/Logo';
 const Header = () => {
     return (
         <header className="Header">
-            <Logo />
+            <Link to="/"><Logo /></Link>
             <nav>
                 <Link to="/#UVOD">Úvod</Link>
                 <Link to="/#O_NAS">Kto sme</Link>
